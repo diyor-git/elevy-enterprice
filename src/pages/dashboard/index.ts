@@ -1,0 +1,9 @@
+export { default as NotFoundPage } from "./NotFoundPage";
+export { default as ProfilePage } from "./ProfilePage";
+export { default as DashboardPage } from "./DashboardPage";
+export { default as InternshipsPage } from "./Internships/InternshipsPage";
+export { default as InternshipDetailPage } from "./Internships/InternshipDetailPage";
+export { default as InternshipCreatePage } from "./Internships/InternshipCreatePage";
+export { default as MessagesPage } from "./MessagesPage";
+export { default as AchievementsPage } from "./AchievementsPage";
+export { default as AIZonePage } from "./AIZonePage";
