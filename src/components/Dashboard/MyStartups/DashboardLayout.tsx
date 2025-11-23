@@ -3,6 +3,7 @@ import {Link, useLocation} from 'react-router-dom';
 import {
     Briefcase,
     Building2,
+    ChartNoAxesGantt,
     ChevronDown,
     ChevronRight,
     FolderDot,
@@ -37,6 +38,11 @@ const navItems: NavItem[] = [
         href: '/internships',
         icon: Briefcase,
         children: [
+             {
+                title: 'Internships',
+                href: '/internships',
+                icon: ChartNoAxesGantt,
+            },
             {
                 title: 'Create',
                 href: '/internships/create',
@@ -81,16 +87,16 @@ const navItems: NavItem[] = [
             // },
         ],
     },
-    {
-        title: 'Companies',
-        href: '/companies',
-        icon: Building2,
-    },
-    {
-        title: 'Forum',
-        href: '/forum',
-        icon: MessageSquare,
-    },
+    // {
+    //     title: 'Companies',
+    //     href: '/companies',
+    //     icon: Building2,
+    // },
+    // {
+    //     title: 'Forum',
+    //     href: '/forum',
+    //     icon: MessageSquare,
+    // },
     {
         title: 'AI Zone',
         href: '/ai-zone',
