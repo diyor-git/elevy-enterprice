@@ -16,12 +16,12 @@ import {
     Star,
     Users,
 } from "lucide-react"
+import {internships} from "@/data/internships"
 import {Link, useParams} from "react-router-dom";
-import { internships } from "./InternshipCreatePage"
 
 export default function InternshipDetailPage() {
     const params = useParams()
-    const id = params.id 
+    const id = params.id as string
     const [isWishlisted, setIsWishlisted] = useState(false)
     const [isApplied, setIsApplied] = useState(false)
 
@@ -36,7 +36,7 @@ export default function InternshipDetailPage() {
             </div>
         )
     }
-console.log(internship);
+
     return (
         <div className="min-h-screen bg-background">
             {/* Header with gradient background */}
