@@ -246,6 +246,8 @@ function CreateInternshipPage() {
             
             internships.push(internshipData)
             console.log("[v0] Internship created:", internshipData)
+            internships.push(internshipData)
+            console.log(internships)
             setAlertState({show: true, type: "success", message: "Internship created successfully!"})
 
             setTimeout(() => {
