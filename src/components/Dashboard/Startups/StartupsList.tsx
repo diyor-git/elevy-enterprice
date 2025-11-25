@@ -42,7 +42,7 @@ function StartupsList({startups, onSelectStartup}: StartupsListProps) {
                             {/* Cover Image */}
                             <div className="relative h-40 overflow-hidden bg-muted">
                                 <img
-                                    src={startup.image || "/placeholder.svg"}
+                                    src={"https://images.unsplash.com/photo-1560179707-f14e90ef3623?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29tcGFueXxlbnwwfHwwfHx8MA%3D%3D"}
                                     alt={startup.name}
                                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                                     loading="lazy"
