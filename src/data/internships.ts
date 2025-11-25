@@ -1,6 +1,6 @@
 import { Internship } from "@/types/internships";
 
-export const internships: Internship[] = [
+export const internships: any = [
   {
     id: "1",
     title: "Full-Stack Developer Intern",
