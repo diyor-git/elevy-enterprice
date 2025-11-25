@@ -6,6 +6,7 @@ import {Card, CardContent, CardHeader, CardTitle} from "@/components/ui/card"
 import {Select, SelectContent, SelectItem, SelectTrigger, SelectValue} from "@/components/ui/select"
 import {Textarea} from "@/components/ui/textarea"
 import {Badge} from "@/components/ui/badge"
+import {internships} from "@/data/internships"
 import {Alert, AlertDescription, AlertTitle} from "@/components/ui/alert"
 import {AlertCircle, CheckCircle2, ChevronLeft, Plus, Trash2} from "lucide-react"
 import {Link} from "react-router-dom";
@@ -242,6 +243,8 @@ function CreateInternshipPage() {
                 },
             }
 
+            
+            internships.push(internshipData)
             console.log("[v0] Internship created:", internshipData)
             setAlertState({show: true, type: "success", message: "Internship created successfully!"})
 
