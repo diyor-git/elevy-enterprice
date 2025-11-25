@@ -222,7 +222,8 @@ function CreateInternshipPage() {
         setIsSubmitting(true)
         try {
             const internshipData = {
-                ...formData,
+                title: formadata.title,
+                skills:formdata.requiredSkills,
                 id: Math.random().toString(36).substr(2, 9),
                 openings: Number.parseInt(formData.openings) || 1,
                 applicants: 0,
