@@ -36,7 +36,7 @@ interface FormData {
     companySize: string
 }
 
-const initialFormData: FormData = {
+const initialFormData: any = {
     title: "",
     category: "Software Development",
     format: "Remote",
@@ -62,7 +62,7 @@ const initialFormData: FormData = {
 
 function CreateInternshipPage() {
 
-    const [formData, setFormData] = useState<FormData>(initialFormData)
+    const [formData, setFormData] = useState<any>(initialFormData)
     const [currentResponsibility, setCurrentResponsibility] = useState("")
     const [currentSkill, setCurrentSkill] = useState("")
     const [currentRequiredReq, setCurrentRequiredReq] = useState("")
