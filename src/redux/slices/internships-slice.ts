@@ -2,7 +2,7 @@ import {createSlice, PayloadAction} from '@reduxjs/toolkit';
 import {defaultStartups} from '@/data/startup-data';
 import {getCategories, getInternships} from "@/redux/thunks/internships";
 import type {Startup} from '@/types/startup';
-import {internships} from "@/data/internships";
+import { internships } from '@/pages/dashboard/Internships/InternshipCreatePage';
 
 interface StartupsState {
     items: Startup[];
