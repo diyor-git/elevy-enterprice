@@ -43,11 +43,11 @@ const navItems: NavItem[] = [
                 href: '/internships',
                 icon: ChartNoAxesGantt,
             },
-            {
-                title: 'Create',
-                href: '/internships/create',
-                icon: Plus,
-            },
+            // {
+            //     title: 'Create',
+            //     href: '/internships/create',
+            //     icon: Plus,
+            // },
         ]
     },
     {
@@ -97,11 +97,11 @@ const navItems: NavItem[] = [
     //     href: '/forum',
     //     icon: MessageSquare,
     // },
-    {
-        title: 'AI Zone',
-        href: '/ai-zone',
-        icon: Sparkles,
-    },
+    // {
+    //     title: 'AI Zone',
+    //     href: '/ai-zone',
+    //     icon: Sparkles,
+    // },
     {
         title: 'Achievements',
         href: '/achievements',
@@ -112,11 +112,11 @@ const navItems: NavItem[] = [
         href: '/profile',
         icon: UserPen,
     },
-    {
-        title: 'Messages',
-        href: '/messages',
-        icon: Send,
-    },
+    // {
+    //     title: 'Messages',
+    //     href: '/messages',
+    //     icon: Send,
+    // },
 ];
 
 interface DashboardLayoutProps {

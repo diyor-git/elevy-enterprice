@@ -2,7 +2,7 @@ import axios from 'axios'
 
 // export const API_URL = process.env.REACT_APP_API
 const $instance = axios.create({
-    baseURL: "dax",
+    baseURL: "http://localhost:3000/",
     withCredentials: true,
 })
 
