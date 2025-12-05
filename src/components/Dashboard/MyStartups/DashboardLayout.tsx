@@ -60,11 +60,11 @@ const navItems: NavItem[] = [
         href: '/my-startups',
         icon: Rocket,
         children: [
-            {
-                title: 'Create Startup',
-                href: '/my-startups/create',
-                icon: Plus,
-            },
+            // {
+            //     title: 'Create Startup',
+            //     href: '/my-startups/create',
+            //     icon: Plus,
+            // },
             {
                 title: 'Projects',
                 href: '/my-startups/',
